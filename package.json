@@ -1,0 +1,16 @@
+{
+  "name": "workout-tracker-testing",
+  "private": true,
+  "description": "Playwright end-to-end tests for katierose1029/workout-tracker",
+  "scripts": {
+    "app:fetch": "node scripts/fetch-app.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
